@@ -10,3 +10,7 @@
           - asset: fonts/Pacifico-Regular.ttf
           
  while at this, be careful of indentation. After adding this lines of code to your pubspec.yaml, go back to your main.dart file and use your fonts by simply using the fontfamily.
+
+
+#Stateful Widget.
+#flex enables a widget or the expanded widget to takee twice or thrice amount ofspace than the other.
