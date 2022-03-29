@@ -15,11 +15,6 @@ If the widget has an alignment, and the parent provides bounded constraints, the
 
 Otherwise, the widget has a child but no height, no width, no constraints, and no alignment, and the Container passes the constraints from the parent to the child and sizes itself to match the child.
 
-
-
-
-
-
 #Using custom widget in your Flutter Application.
   In other to use custom fonts in your appliocation, simply download preferred font from 
   google fonts >> extract the file >> Open up a new folder in project directory(fonts) >> drag and drop your extracted file into the new folder created.
@@ -35,3 +30,9 @@ Otherwise, the widget has a child but no height, no width, no constraints, and n
 #Stateful Widget.
 #flex enables a widget or the expanded widget to takee twice or thrice amount ofspace than the other.
 #voidCallback
+
+#Using flutter Packages:
+Flutter packages are open source libraries of code that other people have created and you can incoporate them into your projects with minimal efforts.
+they make work easier.  To add a flutter package to your project, 
+1) depend on it( by adding a line of code to your dependencies in the pubspec.yaml file)
+2) From the terminal: Run flutter pub get . OR From VS Code: Click Get Packages located in right side of the action ribbon at the top of pubspec. yaml 
